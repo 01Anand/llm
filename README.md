@@ -5,8 +5,10 @@ Basic understanding of the command line.
 # 1. Install VS Code (Visual Studio Code):
 
 VS Code is a free, powerful, and versatile code editor that's perfect for AI development.
-Download: Go to the official VS Code website: https://code.visualstudio.com/
-Installation: Follow the installation instructions for your operating system.
+ # Download: 
+ Go to the official VS Code website: https://code.visualstudio.com/
+ # Installation: 
+ Follow the installation instructions for your operating system.
 # Essential Extensions: (optional)
 Python: (Microsoft) - For Python development.
 Jupyter: (Microsoft) - For working with Jupyter Notebooks.
