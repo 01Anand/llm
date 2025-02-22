@@ -33,14 +33,18 @@ Bash
 curl -fsSL https://ollama.com/install.sh | sh
 Windows: (Preview) Follow instructions on the Ollama website.
 # Run your first model:
-Bash
 
-<code> ollama run llama3 
+
+
+<code> # Bash
+ollama run llama3 </code >
 
 This will download and run the llama3 model. You can then interact with it in your terminal.
 Accessing Ollama within VS Code:
 Ollama runs as a service in the background. You can interact with it via the command line or through Python libraries.
 To use it in a python script, you will need to install its python library. 
-Bash
 
-<code > pip install ollama
+
+<code >
+#Bash
+ pip install ollama</code >
