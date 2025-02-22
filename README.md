@@ -19,8 +19,10 @@ Download: Go to the Miniconda website: https://docs.conda.io/en/latest/miniconda
 Installation: Choose the appropriate installer for your operating system and follow the instructions.
 Create a Conda Environment:
 Bash
-conda create -n myenv python=3.12 # Replace myenv with your environment name and 3.12 with desired python version
+<code > conda create -n myenv python=3.12 
+ Replace myenv with your environment name and 3.12 with desired python version
 conda activate myenv
+</code >
 #  3. Install Ollama:
 
 Ollama allows you to run open-source large language models locally.
@@ -40,4 +42,5 @@ Accessing Ollama within VS Code:
 Ollama runs as a service in the background. You can interact with it via the command line or through Python libraries.
 To use it in a python script, you will need to install its python library. 
 Bash
-pip install ollama
+
+<code > pip install ollama
