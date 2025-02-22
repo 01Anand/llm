@@ -1,13 +1,13 @@
 # Setting Up Your Development Environment for AI Projects 
 
-A computer running macOS, Linux, or Windows.
 Basic understanding of the command line.
+
 # 1. Install VS Code (Visual Studio Code):
 
 VS Code is a free, powerful, and versatile code editor that's perfect for AI development.
 Download: Go to the official VS Code website: https://code.visualstudio.com/
 Installation: Follow the installation instructions for your operating system.
-Essential Extensions:
+# Essential Extensions: (optional)
 Python: (Microsoft) - For Python development.
 Jupyter: (Microsoft) - For working with Jupyter Notebooks.
 GitLens: (Eric Amodio) - For enhanced Git capabilities.
@@ -19,7 +19,7 @@ Download: Go to the Miniconda website: https://docs.conda.io/en/latest/miniconda
 Installation: Choose the appropriate installer for your operating system and follow the instructions.
 Create a Conda Environment:
 Bash
-conda create -n myenv python=3.10 # Replace myenv with your environment name and 3.10 with desired python version
+conda create -n myenv python=3.12 # Replace myenv with your environment name and 3.12 with desired python version
 conda activate myenv
 #  3. Install Ollama:
 
@@ -32,10 +32,10 @@ curl -fsSL https://ollama.com/install.sh | sh
 Windows: (Preview) Follow instructions on the Ollama website.
 Run your first model:
 Bash
-ollama run llama2
-This will download and run the llama2 model. You can then interact with it in your terminal.
+ollama run llama3
+This will download and run the llama3 model. You can then interact with it in your terminal.
 Accessing Ollama within VS Code:
 Ollama runs as a service in the background. You can interact with it via the command line or through Python libraries.
-To use it in a python script, you will need to install its python library. <!-- end list -->
+To use it in a python script, you will need to install its python library. 
 Bash
 pip install ollama
