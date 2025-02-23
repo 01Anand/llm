@@ -1,0 +1,17 @@
+/*
+Generate the HTML structure for a basic e-commerce website. Include the following sections:
+
+1.  A header with a logo and navigation menu (Home, Products, About, Contact).
+2.  A hero section with a large image, a title ("Welcome to Our Online Store"), and a call-to-action button ("Shop Now").
+3.  A featured products section displaying at least three product cards. Each card should include:
+    * An image.
+    * A product title.
+    * A price.
+    * An "Add to Cart" button.
+4.  An "About Us" section with a brief description of the store.
+5.  A footer with copyright information.
+
+Use semantic HTML5 elements (header, nav, main, section, article, footer).
+Include basic inline styles for layout and appearance.
+Ensure the HTML is well-structured and readable.
+*/
