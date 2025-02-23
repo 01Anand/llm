@@ -1,3 +1,4 @@
+# Prerequisites
 # Setting Up Your Development Environment for AI Projects 
 
 Basic understanding of the command line.
@@ -34,11 +35,12 @@ Linux:
 Bash
 curl -fsSL https://ollama.com/install.sh | sh
 Windows: (Preview) Follow instructions on the Ollama website.
+
+# Workshop
+
 # Run your first model:
 
-
-
-<code> # Bash
+<code> #Bash
 ollama run llama3 </code >
 
 This will download and run the llama3 model. You can then interact with it in your terminal.
@@ -50,3 +52,7 @@ To use it in a python script, you will need to install its python library.
 <code >
 #Bash
  pip install ollama</code >
+
+
+ # Create environment
+ <code> conda create -p llm python==3.13 </code> #configure the python version you want
