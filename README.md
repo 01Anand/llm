@@ -22,8 +22,8 @@ Download: Go to the Miniconda website: https://docs.conda.io/en/latest/miniconda
 Installation: Choose the appropriate installer for your operating system and follow the instructions.
 Create a Conda Environment:
 Bash
-<code > conda create -n myenv python=3.12 
- Replace myenv with your environment name and 3.12 with desired python version
+<code > conda create -n llm python=3.13 
+ Replace myenv with your environment name and 3.13 with desired python version
 conda activate myenv
 </code >
 #  3. Install Ollama:
@@ -54,5 +54,3 @@ To use it in a python script, you will need to install its python library.
  pip install ollama</code >
 
 
- # Create environment
- <code> conda create -p llm python==3.13 </code> #configure the python version you want
