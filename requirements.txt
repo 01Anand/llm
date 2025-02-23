@@ -6,3 +6,4 @@ langchain_google_genai
 streamlit
 python-dotenv
 chromadb
+langchain-community
