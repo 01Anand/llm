@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 from terraform.dev.llm_copilot import prompt
 
-def generate_jd(prompt):≠
+def generate_jd(prompt):
     try:
         model = genai.GenerativeModel("gemini-1.5-flash")
         response = model.generate_content(prompt)
