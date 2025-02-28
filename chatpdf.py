@@ -79,4 +79,9 @@ def main():
                 text_chunks = split_text_into_chunks(raw_text)
                 create_vector_store(text_chunks)
                 st.success("Processing complete!")
+
+
+
+
+if __name__ == "__main__":
     main()
